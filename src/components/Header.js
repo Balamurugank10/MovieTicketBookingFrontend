@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import {AppBar,Autocomplete,Tab,Tabs,TextField, Toolbar} from "@mui/material";
+import {AppBar,Autocomplete,IconButton,Tab,Tabs,TextField, Toolbar} from "@mui/material";
 import {Box} from "@mui/system";
 import {useDispatch,useSelector} from "react-redux";
 
@@ -29,7 +29,10 @@ const logout = (isAdmin) => {
     <AppBar position='sticky' sx={{bgcolor:"#2b2d42"}}>
       <Toolbar>
             <Box width={"20%"}>
-                <MovieIcon />
+              <IconButton LinkComponent={Link} to="/">
+              <MovieIcon />
+              </IconButton>
+                
             </Box>
             <Box width={"30%"} margin="auto">
             <Autocomplete
