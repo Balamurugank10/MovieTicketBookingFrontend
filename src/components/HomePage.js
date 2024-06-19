@@ -17,8 +17,8 @@ console.log(movies);
 
   return <Box width={'100%'} height={'100%'} margin={'auto'} marginTop={2}>
     <Box margin={'auto'} width={'80%'} height={'40vh'} padding={2}>
-        <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*hokOn8W6gzNEvh9jl-2Kxw.jpeg" alt="kalki" height={'100%'} width={'100%'}
-/>    </Box>
+    <img src="https://cms-assets.webediamovies.pro/cdn-cgi/image/dpr=1,fit=scale-down,gravity=auto,metadata=none,quality=85,width=1536/production/241/5534bc700873fae7a971947bf794e55e.jpg" alt="kalki" height={'100%'} width={'100%'} />
+          </Box>
 <Box padding={5}  margin={'auto'} >
     <Typography variant='h4' textAlign={'center'}>Latest Releases</Typography>
 </Box>
