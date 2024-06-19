@@ -25,7 +25,7 @@ console.log(movies);
 <Box display="flex" width="80%" justifyContent={'center'} flexWrap="wrap" margin={'auto'} alignItems="center">
     {movies && movies.map((movie,index) => 
     (<MovieItem 
-    id={movie.id}
+    id={movie._id}
     title={movie.title}
     posterUrl={movie.posterUrl}
     releaseDate={movie.releaseDate}
