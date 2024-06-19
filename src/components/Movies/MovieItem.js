@@ -16,7 +16,7 @@ const MovieItem = ({title,releaseDate,posterUrl,id}) => {
       ":hover":{
         boxShadow:"10px 10px 20px #ccc"
     } }}>
-      <img height={"55%"} width="100%" src={posterUrl} alt={title} />
+      <img height={"58%"} width="100%" src={posterUrl} alt={title} />
     
     <CardContent>
       <Typography gutterBottom variant="h5" component="div">
