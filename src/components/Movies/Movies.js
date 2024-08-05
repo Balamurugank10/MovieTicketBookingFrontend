@@ -10,7 +10,7 @@ const Movies = () => {
   useEffect(() => {
     getAllMovies()
       .then((data) => {
-        console.log('Fetched Movies:', data.movies); // Debug log
+        console.log('Fetched Movies: ', data.movies); // Debug log
         setMovies(data.movies);
       })
       .catch((err) => console.log(err));
