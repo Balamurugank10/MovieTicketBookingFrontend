@@ -14,7 +14,7 @@ const Movies = () => {
         setMovies(data.movies);
       })
       .catch((err) => console.log(err));
-  }, []);
+  }, []); 
 
   return (<Box margin={"auto"} marginTop={4}>
     <Typography 

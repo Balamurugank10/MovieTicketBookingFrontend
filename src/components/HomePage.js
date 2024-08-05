@@ -19,7 +19,7 @@ console.log(movies);
     <Box margin={'auto'} width={'80%'} height={'40vh'} padding={2}>
 
 
-    <img src="https://png.pngtree.com/thumb_back/fh260/background/20230617/pngtree-movie-night-necessities-3d-renderings-of-a-blank-cinema-ticket-popcorn-image_3623914.jpg" alt="kalki" height={'100%'} width={'100%'} />
+    <img src="https://png.pngtree.com/thumb_back/fh260/background/20230617/pngtree-movie-night-necessities-3d-renderings-of-a-blank-cinema-ticket-popcorn-image_3623914.jpg" alt="Unable to load" height={'100%'} width={'100%'} />
           </Box>
 <Box padding={5}  margin={'auto'} >
     <Typography variant='h4' textAlign={'center'}>Latest Releases</Typography>
