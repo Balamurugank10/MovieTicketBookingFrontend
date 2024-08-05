@@ -39,17 +39,20 @@ const Booking = () => {
             <Box
                 display={'flex'}
                 justifyContent={'center'}
+            
 
             >
                 <Box
                     display={'flex'}
-                    justifyContent={'column'}
+                    justifyContent={'center'}
                     paddingTop={3}
+                    
                     flexDirection={'column'}
                     width={'50%'}
                     marginRight={'auto'}
+                    marginLeft={'2vh'}
                 >
-                    <img src={movie.posterUrl} alt={movie.title} width={'80%'} height={'300px'}/>
+                    <img src={movie.posterUrl} alt={movie.title} width={'80%'} height={'350px'} />
                     <Box width={'80%'} marginTop={3} padding={2}>
                         <Typography paddingTop={2}>
                             {movie.description}
@@ -72,7 +75,9 @@ const Booking = () => {
                                 <TextField value={inputs.seatNumber} onChange={handleChange} name="seatNumber" type='number' margin='normal' variant='standard' />
                                 <FormLabel>Date</FormLabel>
                                 <TextField  value={inputs.date} onChange={handleChange} name="date" type='date' margin='normal' variant='standard' />
-                                <Button type='submit' sx={{mt:3}}>Book Now</Button>
+                                <Button type='submit' sx={{mt:3,backgroundColor:'blue',color:'white','&:hover':{
+                                    backgroundColor:'darkblue'
+                                }}}>Book Now</Button>
                             </Box>
                         </form>
                     </Box>
